@@ -1,0 +1,90 @@
+#app-section{
+    background-color:#FFFBF7;
+    padding-top: 30px;
+}
+#app-container{
+    /* border: 5px solid red; */
+    width: 100%;
+    max-width: 950px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#app-image{
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+}
+#app-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#app-info{
+    width: 50%;
+    margin-left: 20px;
+}
+#app-title h2{
+    font-size: 44px;
+    color: #1c1c1c;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#app-title p{
+    font-size: 16px;
+    color: #363636;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 32px;
+}
+#app-options{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+input[type="radio"]{
+    accent-color: #EF4F5F;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+label{
+    font-size: 16px;
+    color: #1c1c1c;
+}
+#email-input-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+#email-input{
+    width: 100%;
+    padding: 13px 12px;
+    border: 1px solid #cfcfcf;
+    outline: none;
+    font-size: 18px;
+    border-radius: 6px;
+}
+#email-input-container button{
+    min-width: 150px;
+    border: none;
+    background-color: #EF4F5F;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+}
+#store p{
+    font-size: 14px;
+    color: #9c9c9c;
+    margin-bottom: 15px;
+}
+#store-image{
+    display: flex;
+    gap: 20px;
+}
+#store-image img{
+    width: 137px;
+}

@@ -1,0 +1,56 @@
+#location{
+    max-width: 1100px;
+   margin: 0 auto;
+}
+#location-title span{
+    font-weight: 600;
+}
+#location-title p{
+    font-size: 36px;
+    color: #363636;
+    margin-bottom: 40px;
+}
+#place-container{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 10px;
+    
+}
+#places{
+    border: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 32%;
+    margin-bottom: 10px;
+    box-shadow: #1c1c1c14 0px 1.42623px 2.85246px;
+}
+#place-name h5{
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+#place-name p{
+    font-size: 16px;
+    color: #363636;
+    font-weight: 400;
+}
+#see-more{
+    border: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 15px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 32%;
+    margin-bottom: 10px;
+}
+#see-more p{
+    margin-right: 10px;
+}

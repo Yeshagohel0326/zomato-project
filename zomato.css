@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+header{
+    background-image: url(zomatobgumage.avif);
+    height: 60vh;
+    background-repeat: no-repeat;
+    block-size: cover;
+    background-position: center center;
+}
+nav{
+    /* background-color: red; */
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#getApp span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+#menu ul{
+    display: flex;
+    gap: 50px; 
+    color: #fff;
+    font-size: 18px;
+}
+#logoTagSearch{
+    /* border: 5px solid aqua; */
+    height: calc(60vh - 72px);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+#logoTagSearch #logo img{
+    
+    width: 300px;
+}
+#logoTagSearch #tagLine{
+
+    margin-top: 30px;
+}
+#logoTagSearch #tagLine h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: normal;
+}
+#searchcontainer{
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 15px 25px;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+}
+#searchcontainer #location{
+    display: flex;
+    align-items: center;
+    border-right: 2PX solid #cfcfcf;
+    padding-right: 10px;
+}
+#searchcontainer input{
+    border: none;
+}
+#searchcontainer #restraunt{
+    margin-right: 80px;
+}
+#searchcontainer #restraunt span{
+    color: #c9c8c8;
+    
+}
